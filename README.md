@@ -6,16 +6,17 @@ Documentation: https://developers.ebanxpagamentos.com/
 
 ## Installation
 
-Add this line to your application's Gemfile, and bundle it:
+Add this line to your application's Gemfile:
 
+```ruby
+# EBANX SDK
+gem 'ebanx',  git: 'https://github.com/ebanx/ebanx-pay-ruby-sdk'
 ```
-gem 'ebanx'
+
+and bundle it
+```
 $ bundle
 ```
-
-Or install it yourself as:
-
-    $ gem install ebanx
 
 ## Usage
 
